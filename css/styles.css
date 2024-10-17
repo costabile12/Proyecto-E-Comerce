@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: "Orbitron", serif;
+}
+
+/*Encabezado*/
+header {
+    background-image: linear-gradient(to right, #7e7e7e, #909090, #a2a2a2, #b4b4b4, #c7c7c7, #c7c7c7, #c7c7c7, #c7c7c7, #b4b4b4, #a2a2a2, #909090, #7e7e7e);
+
+    h1{
+        font-family: "Alfa Slab One", serif;
+        text-transform: uppercase;
+        text-shadow: 0 0 7px #eaeaea;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        max-width: 100%;
+        height: auto;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: #1e1e1e;
+        text-shadow: 0 0 7px #eaeaea;
+    }
+
+    .iconos {
+        color: #1e1e1e;
+        cursor: pointer;
+    }
+}
+
+/*Contenido*/
+
+main {
+    
+    background-color: #eaeaea;
+    font-weight: 100;
+
+    h2 {
+        font-weight: bold;
+
+    }
+
+    button {
+        background: transparent;
+        padding: 5px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
+
+/*Pie de pagina*/
+footer  {
+    background-image: linear-gradient(to right, #7e7e7e, #909090, #a2a2a2, #b4b4b4, #c7c7c7, #c7c7c7, #c7c7c7, #c7c7c7, #b4b4b4, #a2a2a2, #909090, #7e7e7e);
+
+    ul {
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: #1e1e1e;
+        text-shadow: 0 0 7px #eaeaea;
+    }
+
+    .redes_sociales {
+        color: #1e1e1e;
+
+    }
+    
+    form {
+        
+        .email{
+            max-width: 100%;
+            border:1px solid #1e1e1e;
+            border-radius: 5px;
+        }
+        .boton {
+            background-color: transparent;
+            border-radius: 8px;
+            padding: 3px;
+            cursor: pointer;
+    
+        }
+    }
+
+
+
+
+
+    }
+ 
+

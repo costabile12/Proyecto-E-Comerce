@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobisón</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <!--Logo-->
+        <h1>Lobisón<h1>
+        <img class="logo" src="./assets/img/logo.png" alt="Logo de la empresa">
+    
+    <!--Barra de Navegacion-->
+        <nav>
+            <div class="enlaces">
+                <ul>
+                    <li><a href="#" >Inicio</a></li>
+                    <li><a href="./page/productos.html" target="_blank">Productos</a></li>
+                    <li><a href="./page/reseñas.html" target="_blank">Reseñas</a></li>
+                    <li><a href="./page/contacto.html" target="_blank">Contacto</a></li>
+                </ul>
+            </div>
+            <!--Busqueda, Usuario, Bolsa de compras-->
+            <div class="iconos">
+                <ul>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20"><path fill="currentColor" d="M5 5a5 5 0 0 1 10 0v2A5 5 0 0 1 5 7zM0 16.68A19.9 19.9 0 0 1 10 14c3.64 0 7.06.97 10 2.68V20H0z"/></svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path fill="currentColor" d="M325.8 0C223 0 139.6 83.4 139.6 186.2c0 33.5 9 64.8 24.4 92L0 442.2l23.3 46.5L69.8 512l164-164c27.1 15.5 58.5 24.4 92 24.4C428.6 372.4 512 289 512 186.2S428.6 0 325.8 0m0 314.2c-70.7 0-128-57.3-128-128s57.3-128 128-128s128 57.3 128 128s-57.3 128-128 128"/></svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M12 13a5 5 0 0 1-5-5h2a3 3 0 0 0 3 3a3 3 0 0 0 3-3h2a5 5 0 0 1-5 5m0-10a3 3 0 0 1 3 3H9a3 3 0 0 1 3-3m7 3h-2a5 5 0 0 0-5-5a5 5 0 0 0-5 5H5c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2"/></svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Banner de temporada-->
+        <section class="banner">
+            <img src="./assets/img/baner_verano_2025.png" alt="Baner de temporada" loading="lazy">
+
+            <video src="./assets/video/publicidad.mp4" autoplay muted loop>
+                Tu dispositivo no soporta el video
+            </video>
+        </section>
+
+        <!--Todos los productos mas destacados-->
+        <section class="productos_destacados">
+            <h2>Lo más destacado</h2>
+            
+            <!--Destacado 1-->
+            <div>
+                <img src="./assets/img/remera_over_destacada.jpeg" alt="Destacado 1" loading="lazy">
+                <h3>Remera oversize negra</h3>
+                <h4>$29.999</h4>
+                <button>COMPRAR</button>
+            </div>
+            
+            <!--Destacado 2-->
+            <div>
+                <img src="./assets/img/remera-basica-cuello-u-blanca-gola-marco-polo-1.jpg" alt="Destacado 2" loading="lazy">
+                <h3>Remera basica blanca cuello en U</h3>
+                <h4>$24.999</h4>
+                <button>COMPRAR</button>
+            </div>
+
+            <!--Destacado 3-->
+            <div>
+                <img src="./assets/img/bermuda-rash.jpg" alt="Destacado 3" loading="lazy">
+                <h3>Bermuda de gabardina</h3>
+                <h4>$17.999</h4>
+                <button>COMPRAR</button>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+
+
+        <section>
+            <h4>Suscribite y obtene un 10% de descuento en tu primera compra </h4>
+            <form action="#" method="post">
+                <input type="email" name="email_subscripto" class="email" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" placeholder="Email">
+                <input type="button" value="Enviar" class="boton">
+            </form>
+
+            <div class="redes_sociales">
+                    <ul>
+
+                        <li>
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 1024 1024"><path fill="currentColor" fill-rule="evenodd" d="M530.014 112.667c43.666-.667 86.997-.334 130.328-.667c2.667 51 21 102.999 58.33 138.998c37.332 37 89.997 54 141.328 59.666v134.332c-47.998-1.667-96.33-11.667-139.994-32.333c-19-8.667-36.665-19.667-53.998-31c-.333 97.332.334 194.665-.666 291.663c-2.667 46.666-18 93-44.998 131.332c-43.665 64-119.328 105.665-196.992 106.999c-47.664 2.666-95.329-10.334-135.994-34.333c-67.33-39.666-114.662-112.332-121.661-190.331c-.667-16.667-1-33.333-.334-49.666c6-63.333 37.332-123.999 85.997-165.332c55.33-47.999 132.66-70.999 204.99-57.332c.667 49.333-1.332 98.665-1.332 147.998c-33-10.667-71.664-7.667-100.663 12.333c-20.999 13.667-36.998 34.666-45.331 58.333c-7 17-5 35.666-4.667 53.666c8 54.666 60.664 100.665 116.662 95.665c37.332-.333 72.997-22 92.33-53.666c6.332-11 13.332-22.333 13.665-35.333c3.334-59.666 2-118.998 2.334-178.664c.333-134.332-.334-268.33.666-402.328"/></svg>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><path fill="currentColor" d="M8 5.67C6.71 5.67 5.67 6.72 5.67 8S6.72 10.33 8 10.33S10.33 9.28 10.33 8S9.28 5.67 8 5.67M15 8c0-.97 0-1.92-.05-2.89c-.05-1.12-.31-2.12-1.13-2.93c-.82-.82-1.81-1.08-2.93-1.13C9.92 1 8.97 1 8 1s-1.92 0-2.89.05c-1.12.05-2.12.31-2.93 1.13C1.36 3 1.1 3.99 1.05 5.11C1 6.08 1 7.03 1 8s0 1.92.05 2.89c.05 1.12.31 2.12 1.13 2.93c.82.82 1.81 1.08 2.93 1.13C6.08 15 7.03 15 8 15s1.92 0 2.89-.05c1.12-.05 2.12-.31 2.93-1.13c.82-.82 1.08-1.81 1.13-2.93c.06-.96.05-1.92.05-2.89m-7 3.59c-1.99 0-3.59-1.6-3.59-3.59S6.01 4.41 8 4.41s3.59 1.6 3.59 3.59s-1.6 3.59-3.59 3.59m3.74-6.49c-.46 0-.84-.37-.84-.84s.37-.84.84-.84s.84.37.84.84a.8.8 0 0 1-.24.59a.8.8 0 0 1-.59.24Z"/></svg>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16"><path fill="currentColor" d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131c.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg>
+                            </a>
+                        </li>
+                        
+                    </ul>
+            </div>
+
+        </section>
+
+        <section>
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="./page/productos.html">Productos</a></li>
+                        <li><a href="./page/sucursales.html">Sucursales</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul>
+                        <li><a href="./page/envios.html">Envios</a></li>
+                        <li><a href="./page/cambios_devoluciones.html">Cambios y devoluciones</a></li>
+                        <li><a href="./page/mayoristas.html">Mayoristas</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div>
+                <img src="./assets/img/logo.png" alt="logo">
+            </div>
+        </section>
+
+    </footer>
+</body>
+</html>
